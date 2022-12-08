@@ -7,5 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProductController {
 
+    @PostMapping("/add")
+    public String AddProduct(){
+        return "Products added successfully";
+
+
+
+    }
+
 
 }
