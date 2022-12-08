@@ -11,8 +11,11 @@ public class ProductController {
     public String AddProduct(){
         return "Products added successfully";
 
+    }
 
-
+    @GetMapping("/view")
+    public String ViewProduct(){
+        return "View Products";
     }
 
 
